@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>얌샘김밥</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>
+        <a href="./">
+          <img src="./images/logo.png" alt="얌샘김밥">
+        </a>
+      </h1>
+      <nav id="gnb">
+        <ul>
+          <li><a href="#">얌샘김밥</a></li>
+          <li><a href="#">메뉴안내</a></li>
+          <li><a href="#">매장안내</a></li>
+          <li><a href="sub2-1.html">얌샘소식</a></li>
+          <li><a href="#">창업안내</a></li>
+        </ul>
+      </nav>
+    </div><!-- container -->
+  </header>
+
+  <section id="main-banner">
+    <div class="container slider">
+      <img class="on" src="./images/main-banner1.jpg" alt="1">
+      <img src="./images/main-banner2.jpg" alt="2">
+      <img src="./images/main-banner3.jpg" alt="3">
+      <div class="tab-group">
+        <a class="on" href="#" onclick="changeVisual(1);">메뉴안내</a>
+        <a href="#" onclick="changeVisual(2);">얌샘소식</a>
+        <a href="#" onclick="changeVisual(3);">매장안내</a>
+      </div>      
+    </div><!-- container -->
+  </section>
+
+  <section id="main">
+    <div class="col news">
+      <img src="./images/news1.jpg" alt="news">
+      <div class="text">
+        <h3>얌샘 소개</h3>
+        <p>전문점 보다 맛있는 기분 좋은 한끼! <br>
+          다양한 요리를 한 곳에서 즐기다</p>
+        <a href="#" class="link">바로가기</a>
+      </div>
+    </div><!-- col -->
+    <div class="col community">
+      <img src="./images/news2.jpg" alt="news">
+      <div class="text">
+        <h3>고객의 소리</h3>
+        <p>얌샘김밥 고객님들의 목소리<br>
+          귀기울여 듣겠습니다</p>
+        <a href="#" class="link">바로가기</a>
+      </div>
+    </div><!-- col -->
+    <div class="col volunteer">
+      <img src="./images/news3.jpg" alt="news">
+      <div class="text">
+        <h3>창업안내</h3>
+        <p>얌샘김밥 창업안내<br>
+          10가지 무상지원혜택 확인해보세요!</p>
+        <a href="#" class="link">바로가기</a>
+      </div>
+    </div><!-- col -->
+  </section>
+
+  <footer>
+    <div class="container"> 
+      <nav class="footer-nav">
+        <a href="#">이용약관</a><span>|</span>
+        <a href="#"><strong>개인정보취급방침</strong></a><span>|</span>
+        <a href="#">이메일주소</a><span>|</span>
+        <a href="#">무단수집거부</a>
+      </nav>
+      <p class="address">
+        (주)얌샘 서울시 영등포구 영등포로 347(한독타워) 9,10F <span>|</span>
+        전화 : 1644-3378<span>|</span>
+        팩스 : 02-3667-3379<span>|</span>
+        사업자등록번호 : 107-86-81841<span>|</span>
+        대표 : 김은광
+      </p>
+      <p class="copy">Copyrightⓒ 2022 YUMSEM, All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
